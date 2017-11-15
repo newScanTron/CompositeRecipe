@@ -1,0 +1,105 @@
+﻿{
+  "unitTypes": [
+    {
+      "name" : "liquidUnits",
+      "units": [
+        {
+          "name": "cup",
+          "regex": "(?<unit>cup[s]*)\\s*"
+        },
+        {
+          "name": "pint",
+          "regex": "(?<unit>pint[s]*)\\s*"
+        },
+        {
+          "name": "quart",
+          "regex": "(?<unit>quart[s]*)\\s*"
+        },
+        {
+          "name": "gallon",
+          "regex": "(?<unit>gallon[s]*)\\s*"
+        },
+        {
+          "name": "teaspoon",
+          "regex": "(?<unit>teaspoon[s]*)\\s*"
+        },
+        {
+          "name": "tablespoon",
+          "regex": "(?<unit>tablespoon[s]*)\\s*"
+        },
+        {
+          "name": "pound",
+          "regex": "(?<unit>pound[s]*)\\s*"
+        },
+        {
+          "name": "one",
+          "regex": "(?<unit>one[s]*)\\s*"
+        },
+        {
+          "name": "clove",
+          "regex": "(?<unit>clove[s]*)\\s*"
+        }
+      ]
+    },
+    {
+      "name":  "sizes",
+      "units": [
+        {
+          "name": "small",
+          "regex": "(?<unit>small)\\s*"
+        },
+        {
+          "name": "medium",
+          "regex": "(?<unit>medium[s]*)\\s*"
+        },
+        {
+          "name": "large",
+          "regex": "(?<unit>large*)\\s*"
+        },
+        {
+          "name": "extra-large",
+          "regex": "(?<unit>extra-large*)\\s*"
+        }
+      ]
+    },
+    {
+      "name": "age",
+      "units": [
+        {
+          "name": "fresh",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    },
+    {
+      "name": "adjectives",
+      "units": [
+        {
+          "name": "pure",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    },
+    {
+      "name": "verbs",
+      "units": [
+        {
+          "name": "pure",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    }
+  ]
+}

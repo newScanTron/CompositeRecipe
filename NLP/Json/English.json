@@ -1,0 +1,44 @@
+﻿{
+  "unitTypes": [
+  
+    {
+      "name": "age",
+      "units": [
+        {
+          "name": "fresh",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    },
+    {
+      "name": "adjectives",
+      "units": [
+        {
+          "name": "pure",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    },
+    {
+      "name": "verbs",
+      "units": [
+        {
+          "name": "pure",
+          "regex": "(?<unit>fresh)\\s*"
+        },
+        {
+          "name": "ripe",
+          "regex": "(?<unit>ripe)\\s*"
+        }
+      ]
+    }
+  ]
+}
